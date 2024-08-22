@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making Website is now one of the easiest things in the world. You just need to learn HTML, CSS, <br>JavaScript and you are good to go.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+<!--------------Course------------------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo accusamus nisi sapiente.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quis perferendis aliquam ducimus beatae non quasi nostrum dolores, nesciunt dolorem, aut aspernatur eos neque voluptas expedita odit optio a iste?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis fugit eligendi, numquam accusantium quam aliquid voluptatem maxime iure tempora veniam distinctio deserunt eius dolore sunt nobis repellendus! Veniam, adipisci?</p>
+        </div>
+        <div class="course-col">
+            <h3>Graduations</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quis perferendis aliquam ducimus beatae non quasi nostrum dolores, nesciunt dolorem, aut aspernatur eos neque voluptas expedita odit optio a iste?</p>
+        </div>
+    </div>
+</section>
+
+<!-------------------campus---------------------->
+<section class="campus">
+    <h1>Our Global campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, beatae.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.jpg" alt="london campus">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png" alt="New York campus">
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.jpg" alt="washington campus">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----------------------------------------FACILITIES---------------------------------------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laboriosam eos obcaecati necessitatibus!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="image of library">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ex doloribus voluptas.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="image of basketball court">
+            <h3>Unique Skill set</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ex doloribus voluptas.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="image of cafetaria">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ex doloribus voluptas.</p>
+        </div>
+    </div>
+
+</section>
+
+<!----------------------------Testimonials----------------------------------------->
+<section class="Testimonials">
+    <h1>What Our Students says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque culpa corrupti ipsa.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg" alt="image">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, assumenda commodi vero facilis amet, suscipit dolores dolorem minima distinctio porro, cupiditate ad soluta fugit illum?</p>
+                <h3>Ashanti Ashanti</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg" alt="image">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, assumenda commodi vero facilis amet, suscipit dolores dolorem minima distinctio porro, cupiditate ad soluta fugit illum?</p>
+                <h3>Gisrobin Geezy</h3>
+            </div>
+        </div>
+    </div>     
+</section>
+
+
+
+<!------------------Call TO Action------------------------------->
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>Anywhewre From The World</h1>
+    <a href="">Contact Us</a>
+
+</section>
+
+
+
+<!--------------JavaScript for toggle menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
